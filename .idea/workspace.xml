@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="04b1e5cc-72d7-4ae8-813f-1c5ca1134318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/Data/history_A_stock_k_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/Data/history_A_stock_k_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/Data/history_A_stock_k_data2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/Data/history_A_stock_k_data2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/pbMRQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/pbMRQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_basic_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_basic_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +165,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
