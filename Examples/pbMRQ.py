@@ -46,7 +46,7 @@ for code in code_list:
     if rs.error_code == '0':
         result = rs.get_row_data()
  
-            # 删除pe为0的证券或指数
+            # 删除pb为0的证券或指数
         if float(result[2]) != 0:
             data_list.append(result)
 
@@ -58,7 +58,7 @@ df['pbMRQ'] = df['pbMRQ'].astype(float)
 # 以peTTM进行升序排序
 df_sortby_peTTM = df.sort_values(by='pbMRQ')
 df_sortby_peTTM.to_csv("./Data/history_A_stock_k_data2.csv", index=False)
-print("当天PB最小的证券: " + df_sortby_peTTM.iloc[0][1])
+print("当天PB最低的证券: " + df_sortby_peTTM.iloc[0][1])
 
 # 登出系统
 bs.logout()
